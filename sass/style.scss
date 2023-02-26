@@ -221,8 +221,41 @@ h6 {
     background: #da2713;
  }
 
+/* Media */
 
+ @media (max-width: 767px) {
+    .navi a {
+        font-size: 9px;
+    } 
 
+    .navigation li  {
+        margin-right: 8px;
+    }
+
+    .splash {
+        height: 350px;
+    }
+
+    .splash h3 {
+        font-size: 26px;
+    }
+
+    .splash h1 {
+        font-size: 30px;
+    }
+
+    .portfolio {
+        padding-bottom: 0;
+    }
+
+    .row {
+        padding-bottom: 0;
+    }
+
+    .page-footer {
+        margin-bottom: 45px;
+    }
+}
     
 
 
