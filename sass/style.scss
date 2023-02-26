@@ -225,6 +225,13 @@ h6 {
     background: #da2713;
  }
 
+/* Media */
 
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+}
+    
 
 
