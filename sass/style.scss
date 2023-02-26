@@ -1,0 +1,230 @@
+/* Variables */
+
+$font-text: 'Roboto Slab', serif;
+$font-header: 'Montserrat', sans-serif;
+$font-subheader: 'Source Serif Pro', serif;
+$font-logo: 'Meow Script', cursive;
+$color-light: #ffffff;
+$color-dark: #2c2c54;
+$color-one: #ff5252;
+$color-two: #33d9b2;
+$color-three: #0097e6;
+
+/*Global*/
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+body {
+    font-family: $font-text;
+    margin: 0;
+    text-align: center;
+    background: $color-light;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: $font-header;
+    margin-bottom: 0;
+    padding-top: 80px;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: $font-subheader;
+    margin-top: 0;
+    padding-bottom: 80px;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: $font-header;
+    margin-bottom: 0;
+}
+
+/*Header*/
+
+.subtitle {
+    margin: 0;
+    font-family: $font-subheader; 
+    font-size: 40px;
+}
+
+.title {
+    margin: 0;
+    font-family: $font-header;
+    font-size: 75px;
+}
+
+.header {
+    padding-top: 50px;
+    background-image: url('https://i.postimg.cc/SQBZ6HtP/zadanie-golden.jpg');
+    background-size: cover;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 240px;
+    height: 65px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    font-family: $font-header;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: $color-light;
+    border-radius: 7px;
+    background-color: #fed136;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fed136;
+    background-color: $color-light;
+}
+
+.logo {
+    text-align: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fed136;
+    font-family: $font-logo;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}  
+
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+}
+
+.navi a {
+    text-decoration: none;
+    color: $color-light;
+    font-family: $font-header;
+    font-size: 14px;
+}
+
+.navi a:hover {
+    color: #fed136;
+}
+
+.splash {
+    height: 700px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-inner {
+    position: absolute;
+    color: $color-light;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*Sevices*/
+
+.services p {
+    font-size: 14px;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    background: #f7f7f7;
+}
+
+.box img {
+    width: 100%;
+    
+}
+
+.box {
+    position: relative;
+    height: 550px;
+}
+
+.box-inside {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    background: $color-light;
+}
+
+h6 {
+    font-size: 16px;
+    font-family: $font-subheader;
+    margin-top: 0;
+}
+
+/*Footer*/
+
+.page-footer {
+    margin-top: 45px;
+}
+
+.description p {
+    font-size: 14px;
+    font-family: $font-header;
+}
+
+ .icons a {
+    font-size: 0;
+    margin: 0 5px;
+ }
+
+ .icone-1, .icone-2, .icone-3, .icone-4 {
+    font-size: 20px;
+    color: $color-light;
+    background: $color-dark;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+ }
+
+ .icone-1:hover {
+    background: #00aced;
+ }
+
+ .icone-2:hover {
+    background: #3b5998;
+ }
+
+ .icone-3:hover {
+    background: #cb2028;
+ }
+
+ .icone-4:hover {
+    background: #da2713;
+ }
+
+
+
+
